@@ -1,0 +1,28 @@
+{
+    "name": "tleckie/url",
+    "description": "Url shortener",
+    "autoload": {
+        "psr-4": {
+            "Tleckie\\Url\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tleckie\\Url\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tleckie",
+            "email": "teodoroleckie@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1"
+    }
+}
